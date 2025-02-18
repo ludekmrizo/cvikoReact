@@ -1,0 +1,63 @@
+.fish-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fish-form input[type='text'] {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 10px;
+  border: 1px solid #b8bfc7;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type='radio']:checked {
+  accent-color: #198754; /* zelená */
+}
+
+.fish-form .form-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.fish-form .form-check input {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #b8bfc7;
+  cursor: pointer;
+}
+
+.fish-form button {
+  width: 100%;
+  padding: 7px;
+  font-size: 18px;
+  background-color: #54a3fd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fish-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.fish-form button:hover:not(:disabled) {
+  background-color: #0e7eff;
+}
+
+@media (min-width: 600px) {
+  .fish-form {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

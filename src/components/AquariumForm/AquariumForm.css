@@ -1,0 +1,18 @@
+.aquarium-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.aquarium-form input[type='number'] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #b8bfc7;
+  border-radius: 5px;
+  font-size: 16px;
+}

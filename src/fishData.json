@@ -1,0 +1,29 @@
+{
+  "fish": [
+    {
+      "id": 1,
+      "name": "Kapr",
+      "size": "velká"
+    },
+    {
+      "id": 2,
+      "name": "Štika",
+      "size": "velká"
+    },
+    {
+      "id": 3,
+      "name": "Pstruh",
+      "size": "malá"
+    },
+    {
+      "id": 4,
+      "name": "Sumec",
+      "size": "velká"
+    },
+    {
+      "id": 5,
+      "name": "Karas",
+      "size": "malá"
+    }
+  ]
+}

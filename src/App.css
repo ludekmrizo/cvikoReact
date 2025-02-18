@@ -1,0 +1,19 @@
+body {
+  background-color: #e9f7fd;
+  min-height: 100vh;
+}
+
+.box {
+  max-width: 600px;
+  width: 100%;
+  min-height: 90vh;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.1rem 0.4rem 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  max-height: 80vh;
+  overflow-y: auto;
+}
